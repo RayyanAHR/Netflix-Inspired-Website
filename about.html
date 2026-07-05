@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Netflix</title>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+        }
+
+        nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background-color: black;
+        height: 100px;
+        }
+
+        .nav-left {
+        display: flex;
+        align-items: center;
+        }
+
+        .logo img {
+        width: 100px;
+        height: auto;
+        cursor: pointer;
+        margin-right: 30px; 
+        transition: transform 0.3s ease; 
+        }
+
+        .logo img:hover {
+        transform: scale(1.1);
+        }
+
+        .nav-left a {
+        color: white;
+        text-decoration: none;
+        margin-right: 30px;
+        font-size: 16px;
+        transition: color 0.3s ease;
+        }
+
+        .nav-left a:hover {
+        color: red;
+        }
+
+        .nav-right a {
+        color: white;
+        text-decoration: none;
+        margin-left: 30px;
+        font-size: 16px;
+        transition: color 0.3s ease;
+        }
+
+        .nav-right a:hover {
+        color: red;
+        }
+
+        body {
+            /* font-family: 'Helvetica Neue', Arial, sans-serif; */
+            background-color: #141414; 
+            color: #e5e5e5; 
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .hero {
+            background-color: #000; 
+            padding: 100px 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 22px;
+            margin-bottom: 0;
+        }
+
+        .container {
+            width: 85%;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #e50914; 
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin: 15px 0;
+        }
+
+        .section {
+            padding: 20px 0;
+            border-top: 1px solid #333; 
+        }
+
+        .section:first-of-type {
+            border-top: none; 
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+          <a href="#">
+            <div class="logo">
+              <img src="images/netflix.png" alt="Netflix Logo">
+            </div>
+          </a>  
+          <a href="#">TV Shows</a>
+          <a href="#">Movies</a>
+          <a href="">My List</a>
+          <a href="">Recently Added</a>
+        </div>
+    
+        <div class="nav-right">
+          <a href="home.html">Home</a>
+          <a href="#">About Us</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+    <header class="hero">
+        <img src="images/netflix (1).png" alt="" width="200px" height="150px">
+
+        <h1>Welcome to Netflix</h1>
+
+        <p>Your premier destination for movies, TV shows, and original content.</p>
+    </header>
+
+    <div class="container">
+        <section class="section mission">
+            <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2021-10/211004-squid-game-jm-02-d98e90.jpg" alt="" width="350px" height="250px">
+            <img src="https://images.ctfassets.net/4cd45et68cgf/4VSxeY3b51YAvrDqnruDPr/9c88e632654f934f9df1da1b561be033/India_-_2022_blog.jpeg?w=2000" alt="" width="350px" height="250px">
+            <img src="https://media.newyorker.com/photos/62c197a67155e66883a968d9/3:2/w_1911,h_1274,c_limit/Rothman-Stranger-Things-finale.jpg" alt="" width="350px" height="250px">
+
+            <h2>Our Mission</h2>
+            <p>At Netflix, we aim to entertain the world with stories that are diverse, inspiring, and compelling. We strive to bring joy and excitement to audiences globally through exceptional content.</p>
+        </section>
+
+        <section class="section history">
+            <h2>Our Journey</h2>
+            <p>Netflix started in 1997 as a DVD rental service, evolving into a pioneer of online streaming and original content. Today, we are a global platform available in over 190 countries, known for transforming the way the world consumes entertainment.</p>
+        </section>
+
+        <section class="section team">
+            <h2>Meet the Team</h2>
+            <p>We are a collective of creators, storytellers, and technology innovators working together to deliver a seamless entertainment experience. Our diverse team spans the globe, all dedicated to making Netflix the premier streaming service.</p>
+        </section>
+
+        <section class="section values">
+            <h2>Our Values</h2>
+            <p>We champion creativity, inclusion, and innovation. Our core belief is to empower viewers by providing them with a wide array of content choices and tailored viewing experiences.</p>
+        </section>
+    </div>
+
+</body>
+</html>
